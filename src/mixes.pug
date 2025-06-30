@@ -1,0 +1,18 @@
+extends ./templates/default.pug
+
+block meta
+  - noindex = true
+  - const title = "mixes"
+  - const desc = "Mixes made for the ITG community, created by CERiNG"
+
+block content
+  h1 mixes
+
+  h2.extend-none ceristreams
+  p #[a.link(href="ceristreams") Download CERiSTREAMS]
+  .mix-container#mixes-streams
+  h2.extend-none soul2sky
+  p Future release
+  .mix-container#mixes-porter
+  h2.extend-none other
+  .mix-container#mixes-misc

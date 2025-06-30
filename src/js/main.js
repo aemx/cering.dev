@@ -1,11 +1,13 @@
 import * as itg from './itg';
+import * as mix from './mix';
 import * as nav from './nav';
 import * as util from './util';
 import resume_default from 'url:../includes/resume/default.pug';
 import resume_dev from 'url:../includes/resume/dev.pug';
 import resume_it from 'url:../includes/resume/it.pug';
 import resume_graphics from 'url:../includes/resume/graphics.pug';
-import data_ceristreams from 'url:../data/itg/streams/pack.json';
+import data_ceristreams from 'url:../data/packs/streams.json';
+import data_mix from '../data/mix.yaml';
 import Macy from "macy"
 
 // Get page details
@@ -66,6 +68,8 @@ if (page.includes('resume') || page.includes('$')) {
             500: 2
         }
     });
+} else if (page.includes("mixes")) {
+    mix.mixList(data_mix);
 } else if (page.includes("ceristreams")) {
   util.reqJson(data_ceristreams, itg.listControl);
 }

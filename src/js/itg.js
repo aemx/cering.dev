@@ -48,8 +48,8 @@ export const fileList = async (data, isBySong, sortMode, showLowers) => {
 
   for (const song of data) {
     const id          = song.sid;
-    const bnPath      = `./img/itg/streams/bn/${id}.jpg`;
-    const graphPath   = await util.req(`./img/itg/streams/graph/${id}-x.svg`);
+    const bnPath      = `./assets/packs/streams/bn/${id}.jpg`;
+    const graphPath   = await util.req(`./assets/packs/streams/graph/${id}-x.svg`);
     const title       = song.titletranslit ? song.titletranslit : song.title
     const artist      = song.artisttranslit ? song.artisttranslit : song.artist
     const [mainDiff]  = song.difficulties.filter(x => x.slot === "Challenge");
@@ -75,7 +75,7 @@ export const fileList = async (data, isBySong, sortMode, showLowers) => {
             // highlight new diff
             diffButton.classList.add(`itg-diff-${slot}-fill`)
             selectedDiffs[id] = slot;
-            const graphPath = await util.req(`./img/itg/streams/graph/${id}-${diffSvg[slot]}.svg`);
+            const graphPath = await util.req(`./assets/packs/streams/graph/${id}-${diffSvg[slot]}.svg`);
             graphView.innerHTML = graphPath;
             breakdown.innerHTML = cleanBd(diff.breakdown);
           }

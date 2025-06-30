@@ -1,0 +1,167 @@
+streams:
+
+- title:  Future Esoterica
+  artist: Various Artists
+  genre:  Atmospheric DnB
+  songs:
+  - {time: 0,     song: Nookie - The Magic}
+  - {time: 180,   song: Pizza Hotline - DUALSHOCK}
+  - {time: 395,   song: J-Laze - Azure}
+  - {time: 576,   song: Adam F - Circles}
+  - {time: 804,   song: nuphory - nautilus}
+
+- title:  KAKOPHONY
+  artist: SKY SPORTS (arr. CERiNG)
+  genre:  Post-vaporwave
+  artistOnly: true
+  songs:
+  - {time: 0,     song: SKY SPORTS - GUIDE}
+  - {time: 93,    song: SKY SPORTS - FUTURE READY}
+  - {time: 153,   song: SKY SPORTS - THE DIGITAL AGE}
+  - {time: 295,   song: SKY SPORTS - FUTURE READY}
+  - {time: 341,   song: SKY SPORTS - HACKERS}
+  - {time: 408,   song: SKY SPORTS - FUTURE READY}
+
+- title:  New Age | Dark Age
+  artist: Karma Fields
+  genre:  Electro House
+  srcRule:
+    in: " |"
+    out: ","
+  songs:
+  - {time: 0,     song: Karma Fields - Edge of the World}
+  - {time: 247,   song: Karma Fields - Build the Cities (ft. Kerli)}
+  - {time: 415,   song: Karma Fields - Skyline}
+  - {time: 639,   song: Karma Fields - Faint Echoes (ft. Monarchy)}
+  - {time: 887,   song: Karma Fields - Fixed_ vs. Karma Fields - Skewed}
+
+- title:  The Grind
+  artist: Various Artists
+  genre:  Dubstep + Hi-Tech
+  songs:
+  - {time: 0,     song: Pegboard Nerds & NGHTMRE - Superstar (ft. Krewella)}
+  - {time: 198,   song: Koven - Telling Me}
+  - {time: 428,   song: Chime - Invincible}
+  - {time: 646,   song: かめりあ - LET'S JUMP}
+  - {time: 1005,  song: かめりあ - PLANET//SHAPER}
+
+- title:  What's Happenin' Forum?
+  artist: Various Artists
+  genre:  2000s Internet
+  srcRule:
+    in: "?"
+    out: ''
+  songs:
+  - {time: 0,     song: 009 Sound System - Dreamscape}
+  - {time: 159,   song: SunStroke Project & Olia Tira - Run Away}
+  - {time: 275,   song: "O-Zone - Ma Ya Hi (ft. Lucas Prata) [Valentin Radio Edit]"}
+  - {time: 447,   song: Haddaway - What Is Love}
+  - {time: 588,   song: Scatman John - Scatman (Ski-Ba-Bop-Ba-Dop-Bop)}
+  - {time: 777,   song: Vengaboys - We Like To Party! (The Vengabus)}
+  - {time: 897,   song: Basshunter - I Can Walk On Water}
+  - {time: 1003,  song: "Daft Punk - Harder, Better, Faster, Stronger (Teddybear Techno Mix)"}
+  - {time: 1129,  song: DJ Earworm - United State of Pop 2009 (Blame It on the Pop)}
+
+porter:
+
+- title:  metanoia ~a monologue with my dream self~
+  artist: Various Artists
+  genre:  Electropop
+  srcRule:
+    in: /\s~.*/
+    out: ''
+  songs:
+  - {time: 0,     song: Porter Robinson - Divinity}
+  - {time: 242,   song: Madeon - Sweet Time}
+  - {time: 414,   song: Porter Robinson - Polygon Dust (ft. Lemaitre)}
+  - {time: 616,   song: Madeon - Be Fine}
+  - {time: 779,   song: Puppet & Foria - I'm Here}
+  - {time: 921,   song: Porter Robinson - Flicker}
+  - {time: 1121,  song: Madeon - No Fear No More}
+  - {time: 1285,  song: Porter Robinson - Get Your Wish}
+  - {time: 1488,  song: Madeon - Nonsense (ft. Mark Foster)}
+  - {time: 1697,  song: Madeon - Innocence (ft. Aquilo)}
+  - {time: 1831,  song: Puppet & Murtagh - Killing Giants (ft. Richard Caddock)}
+  - {time: 2033,  song: Porter Robinson - Sad Machine}
+
+- title:  shared time ~a warmth beyond my soul~
+  artist: Madeon, Various Artists
+  genre:  Electropop
+  srcRule:
+    in: /\s~.*/
+    out: ''
+  songs:
+  - {time: 0,     song: Madeon - Isometric}
+  - {time: 21,    song: Madeon - You're On (ft. Kyan)}
+  - {time: 175,   song: Madeon - All My Friends}
+  - {time: 358,   song: Madeon - Love You Back}
+  - {time: 485,   song: Puppet & Cormak - Enough Is Enough (ft. Richard Caddock)}
+  - {time: 675,   song: Madeon - Pixel Empire}
+  - {time: 784,   song: Madeon - Beings}
+  - {time: 922,   song: Porter Robinson - Trying to Feel Alive}
+
+- title:  whole again ~a journey beyond the sky~
+  artist: Porter Robinson & Madeon
+  genre:  Electropop
+  srcRule:
+    in: /\s~.*/
+    out: ''
+  songs:
+  - {time: 0,     song: Porter Robinson - Look at the Sky}
+  - {time: 196,   song: Madeon - Miracle}
+  - {time: 326,   song: Madeon - Cut the Kid}
+  - {time: 497,   song: Madeon - Pay No Mind (ft. Passion Pit)}
+  - {time: 706,   song: Porter Robinson - Musician}
+  - {time: 937,   song: Porter Robinson - Mirror}
+
+
+misc:
+
+- title:    Antechamber
+  artist:   Perturbator & Erio
+  genre:    Outrun + Dubstep
+  pack:     NJSRT1
+  packLink: https://www.youtube.com/watch?v=RA-u4K1xUgw
+  songs:
+  - {time: 0,     song: Perturbator - Birth of the New Model}
+  - {time: 181,   song: Erio - Missing No_}
+
+- title:    LUX MORTIS
+  artist:   I:Gor & Ulcerium
+  genre:    Crossbreed
+  srcRule:
+    in: ":"
+    out: ''
+  pack:     NJSRT1
+  packLink: https://www.youtube.com/watch?v=RA-u4K1xUgw
+  songs:
+  - {time: 0,     song: I:Gor - Devil Has A Name}
+  - {time: 160,   song: Ophidian & Tapage - The Mine}
+  - {time: 175,   song: Ulcerium - The book}
+
+- title:  'Sadistic III: The Singularity'
+  artist: Various Artists
+  genre:  Various
+  pack: ???
+  srcRule:
+    in: /:.*/
+    out: ''
+  songs:
+  - {time: 0,     song: Melissa White & Ace - Switch!}
+  - {time: 274,   song: Ch!pz - Bang Bang}
+  - {time: 457,   song: meganeko - Discovery}
+  - {time: 622,   song: BlackY - Mirrorforce}
+  - {time: 858,   song: zts - dreamenddischarger}
+  - {time: 1183,  song: Laur - Sound Chimera}
+  - {time: 1251,  song: Nhato - Gekka}
+  - {time: 1402,  song: Taishi - Imitation of Our History}
+
+- title:  Standoff in the Twilight
+  artist: Various Artists
+  genre:  Bemani
+  pack:     Misfits in the Prairie
+  packLink: https://www.youtube.com/watch?v=yV0XQziHyy4
+  songs:
+  - {time: 0,     song: SYUNN - Cosy Catastrophe}
+  - {time: 82,    song: NekomataL.E.D.Master+ - GAIA}
+  - {time: 172,   song: Nekomata Master+ - nightbird lost wing}

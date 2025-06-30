@@ -5,4 +5,4 @@ mkdir dist
 cp -R src/docs dist/docs
 
 [[ ! -d "dist/img" ]] && mkdir "dist/img"
-rsync -av --exclude='*.json' "src/data/." "dist/img"
+rsync -av --exclude='*.json' "src/assets/." "dist/assets"

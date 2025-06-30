@@ -1,0 +1,40 @@
+.mix
+  flex(column, nowrap, start, gap: 8px)
+  width 100%
+  &-genre
+    color lite-dark
+    font-weight bold
+    font-size 14px
+    margin-bottom 0
+    text-transform uppercase
+  &-player
+    flex(rowm nowrap, start, gap: 8px)
+  &-download
+      display inline-block
+      border-radius 4px
+      background-color main-dark
+      user-select none
+      cursor pointer
+      animate(all)
+      hover-color(#9d69ff)
+      width 41px
+      svg
+        fill lite-head
+        width 22px
+        margin-top 9px
+        margin-left 8px
+  &-audio
+    width 100%
+  &-container
+    flex(column, nowrap, start, start, 24px)
+    margin-bottom 32px
+  &-contents
+    background-color dark-mid
+    padding 12px 16px
+    border-radius 4px
+    max-width fit-content
+  &-song
+    margin-bottom 0
+    &-time
+      display inline-block
+      width 64px
